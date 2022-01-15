@@ -1,0 +1,50 @@
+.product{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.product p{
+    min-height:4.5rem;
+}
+.product-img{
+    height:200px;
+    width:150px;
+}
+.product:hover .product-actions{
+   opacity:1; 
+}
+.product-actions{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    top:0;
+    left:0;
+    right:0;
+    opacity:0;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#fff;
+    font-weight:bold !important;
+
+}
+.product-info-img{
+    height:60vh;
+}
+.total-amount{
+   
+    background-color:rgb(255, 255, 77);
+    font-weight:bold;
+
+}
+.total-amount:hover{
+    background-color:rgb(204, 255, 51);
+}
+.order{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.border{
+    background-color:khaki;
+}
+.products{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -1,0 +1,68 @@
+.form-control{
+    box-shadow:none;
+  
+}
+.form-control:hover{
+    margin-top:15px !important;
+    box-shadow:none;
+}
+.form-register{
+    background-color:rgb(255, 255, 153);
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.register-parent{
+    background-color:rgb(102, 255, 26);
+    height: 100vh;
+}
+.register-parent .row{
+    height: 100vh;
+    align-items:center;
+    z-index:999 !important;
+}
+.register-top{
+    height:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    background-color:rgb(204, 255, 51);
+    z-index:0 !important;
+}
+
+.z1{
+    z-index:1 !important;
+}
+
+
+
+.form-login{
+    background-color:rgb(255, 255, 153);
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.login-parent{
+    background-color:rgb(102, 255, 26);
+    height: 100vh;
+}
+.login-parent .row{
+    height: 100vh;
+    align-items:center;
+    z-index:999 !important;
+}
+.login-bottom{
+    height:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgb(204, 255, 51);
+    z-index:0 !important;
+}
+
+.z1{
+    z-index:1 !important;
+}
+a{
+    text-decoration:none;
+}

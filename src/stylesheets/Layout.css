@@ -1,0 +1,69 @@
+
+.header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:2;
+}
+.navbar {
+ background-color: rgba(145, 210, 43, 0.66) !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;  
+}
+.nav-link {
+    color: #fff !important;
+   }
+   
+   .content{
+       padding-top:80px;
+   }
+   .footer{
+       padding:10px;
+       text-align:center;
+       background-color:rgba(145, 210, 43, 0.66) ;
+       color :white;
+       position:absolute;
+       bottom:0;
+       right:0;
+       left:0;
+       
+
+   }
+   .btn{
+       background-color:rgb(255, 153, 225);
+       box-shadow:none;
+       border:1px solid white;
+       color:#000000;
+       padding:5px;
+   }
+   .btn:hover{
+      background-color:rgb(255, 102, 0);
+   }
+   .loading{
+       position:absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%, -50%);
+       z-index:99999;
+   }
+   .spinner-border{
+       height:100px;
+       width:100px;
+       
+   }
+   #uncontrolled-tab-example-tab-products{
+       color:black !important;
+   }
+   #uncontrolled-tab-example-tab-orders{
+    color:black !important;
+}
+#uncontrolled-tab-example-tab-contact{
+    color:black !important;
+}
+
+
+
+    
